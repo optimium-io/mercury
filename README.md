@@ -1,15 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# mercury
 
-## Getting Started
+<img width="1155" alt="image" src="https://github.com/optimium-io/mercury/assets/29562675/dee687c0-0177-40a1-a475-dbe153a1b641">
+
+ゲーム NFT を購入できるスロットゲーム
+
+様々な BCG のアイテム NFT をランダム形式で購入できるスロットゲーム。
+
+スロットマシーンを回すことで獲得したゲーム内コインを使って、アイテム NFT を複数個まとめたパッケージを購入し、ランダムでパッケージ内の NFT を獲得できる。
+
+## Problem
+
+① 現状の BCG は、NFT のゲームとして共通規格を使用しているが、実際に相互運用できる場がない。
+
+②BCG の運営会社は、新規ユーザーを獲得するためのマーケティングに非常に多くのコストをかけている。特に新興のプレイヤーは、ユーザーとの最初の接点作りに苦心している。
+
+## Solution
+
+様々な BCG のアイテムをランダム形式で購入できるスロットゲームで、相互運用性を活かして、ユーザーが様々なゲームに触れるきっかけ作りを行う
+様々な BCG のアイテム NFT をパッケージ化し、ランダムで販売する場所があることで、異なるセグメントの BCG プレイヤーが集まる。ランダム形式によって狙っていたものとは別の BCG アイテムを獲得することで、普段プレイしているゲームとは別のゲームとの接点を用意できると考えている。
+
+## 開発者向け
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
